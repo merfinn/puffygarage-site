@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Puffy Garage</title>
+<meta name="description" content="Kids build and paint their own cars, pick a fluffy driver and hit the road, alone or with a grown-up on one screen. iPhone, iPad and iPhone Duo.">
+<meta property="og:title" content="Puffy Garage">
+<meta property="og:description" content="Build it. Paint it. Drive it! A car maker and driving game for kids.">
+<meta property="og:image" content="images/header.jpg">
+<link rel="icon" href="images/icon.png">
+<link rel="apple-touch-icon" href="images/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800;900&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0e1426; --panel:#182139; --line:#2c3857; --fg:#f4f6fb; --dim:#b5bed3; --amber:#ffc934; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:600 18px/1.55 Nunito,ui-rounded,system-ui,sans-serif; }
+  img { max-width:100%; display:block; }
+  .hero img { width:100%; aspect-ratio:1920/823; object-fit:cover; }
+  main { max-width:1080px; margin:auto; padding:32px 16px 56px; display:grid; gap:44px; }
+  h1 { font:900 clamp(34px,6vw,54px)/1.1 Nunito,sans-serif; margin:0 0 8px; color:var(--amber); text-wrap:balance; }
+  h2 { font:900 28px/1.2 Nunito,sans-serif; margin:0 0 14px; color:var(--amber); }
+  p { margin:0; max-width:64ch; }
+  .lead { color:var(--dim); font-size:21px; }
+  .cta { display:inline-block; margin-top:20px; padding:14px 24px; border-radius:14px; background:var(--amber); color:#1c1400; font-weight:900; text-decoration:none; }
+  .shots { display:flex; gap:14px; overflow-x:auto; padding-bottom:10px; scroll-snap-type:x mandatory; }
+  .shots img { width:230px; flex:none; border-radius:18px; scroll-snap-align:start; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:14px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:18px; min-width:0; }
+  .card h3 { margin:0 0 6px; font:900 20px Nunito,sans-serif; }
+  .card p { color:var(--dim); font-size:16px; }
+  footer { border-top:1px solid var(--line); padding-top:18px; color:var(--dim); font-size:15px; display:flex; flex-wrap:wrap; gap:8px 20px; }
+  a { color:var(--amber); }
+</style>
+</head>
+<body>
+<div class="hero"><img src="images/header.jpg" alt="Puffy Garage: a digger, police car, monster truck and fire truck in front of a garage at sunset"></div>
+<main>
+  <section>
+    <h1>Build it. Paint it. Drive it!</h1>
+    <p class="lead">Kids build and paint their own cars, pick a fluffy driver and hit the road, alone or with a grown-up on one screen.</p>
+    <a class="cta" href="https://apps.apple.com/app/id6831777787">See it on the App Store</a>
+  </section>
+  <section aria-label="Screenshots">
+    <div class="shots">
+      <img src="images/shot1.jpg" alt="Ten cars in a parking tower"><img src="images/shot2.jpg" alt="Painting a monster truck"><img src="images/shot3.jpg" alt="Choosing a puff driver"><img src="images/shot4.jpg" alt="A fire truck with photo and drive buttons"><img src="images/shot5.jpg" alt="Driving a police car through a forest"><img src="images/shot6.jpg" alt="A truck coming the other way"><img src="images/shot7.jpg" alt="Two players on a canyon road">
+    </div>
+  </section>
+  <section>
+    <h2>What's inside</h2>
+    <div class="grid">
+      <div class="card"><h3>10 cars to build</h3><p>Police car, fire truck, digger, monster truck, race car and more. Change wheels, roof, front, back and stickers.</p></div>
+      <div class="card"><h3>Paint every part</h3><p>Pick a colour for each part, or draw with crayons and use the drawing as paint.</p></div>
+      <div class="card"><h3>Ten puff drivers</h3><p>Teddy, Bunbun, Mochi, Pandy, Ribbit and friends, with hats and glasses.</p></div>
+      <div class="card"><h3>Four roads to drive</h3><p>Drag a finger to stay on the road, collect stars and look out for the truck.</p></div>
+      <div class="card"><h3>Two players, one screen</h3><p>A child and a grown-up drive side by side with two fingers.</p></div>
+      <div class="card"><h3>My Car's Day widget</h3><p>Your own car gets washed, goes exploring and sleeps through the day.</p></div>
+    </div>
+  </section>
+  <section>
+    <h2>For grown-ups</h2>
+    <p>No ads, no accounts and no data collection. It works without internet. Sharing and purchases sit behind a grown-ups gate. The police car and fire truck are free, and one in-app purchase unlocks the other 8 cars and two-player races. There is no subscription.</p>
+  </section>
+  <footer>
+    <span>Puffy Garage for iPhone, iPad and iPhone Duo</span>
+    <a href="https://gist.github.com/merfinn/6a9b45a8b6100252f3427fc9c0dc17ee">Privacy</a>
+    <a href="https://gist.github.com/merfinn/3dad73d18ad21016c125d545a33d22e2">Support</a>
+  </footer>
+</main>
+</body>
+</html>
