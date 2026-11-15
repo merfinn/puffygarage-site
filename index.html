@@ -33,6 +33,9 @@
   .card p { color:var(--dim); font-size:16px; }
   footer { border-top:1px solid var(--line); padding-top:18px; color:var(--dim); font-size:15px; display:flex; flex-wrap:wrap; gap:8px 20px; }
   a { color:var(--amber); }
+  .spatial-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:14px; margin-top:18px; }
+  .spatial-grid img { border-radius:16px; border:1px solid var(--line); }
+  .soon { display:inline-block; margin-top:20px; padding:14px 24px; border-radius:14px; border:2px solid var(--amber); color:var(--amber); font-weight:900; }
 </style>
 </head>
 <body>
@@ -59,12 +62,26 @@
       <div class="card"><h3>My Car's Day widget</h3><p>Your own car gets washed, goes exploring and sleeps through the day.</p></div>
     </div>
   </section>
+  <section id="spatial">
+    <h2>Puffy Garage Spatial for Apple Vision Pro</h2>
+    <p class="lead">A glowing toy garage sits right on your table. Pick one of ten cute cars from the tower, paint every part, snap on rockets, dragons and wings, choose big wheels and a fluffy driver, then watch it race around the track. Tap "Big car!" and your car rolls into the room at life size, so you can walk all the way around it. A calm, family-friendly game to play together.</p>
+    <div class="spatial-grid">
+      <img src="images/spatial-1.jpg" alt="A 3D garage tower with ten cars on a table in a living room" loading="lazy">
+      <img src="images/spatial-2.jpg" alt="A big police car standing in the room next to the small garage" loading="lazy">
+      <img src="images/spatial-3.jpg" alt="Painting a car with a colour palette beside the garage" loading="lazy">
+      <img src="images/spatial-4.jpg" alt="Choosing roof, front and back parts" loading="lazy">
+      <img src="images/spatial-5.jpg" alt="Picking a puff driver with hats and glasses" loading="lazy">
+      <img src="images/spatial-6.jpg" alt="A car driving laps around the toy track" loading="lazy">
+    </div>
+    <span class="soon">Coming soon to Apple Vision Pro</span>
+    <p style="margin-top:12px;color:var(--dim)">A separate app with everything included: all ten cars and every part, no in-app purchases.</p>
+  </section>
   <section>
     <h2>For grown-ups</h2>
     <p>No ads, no accounts and no data collection. It works without internet. Sharing and purchases sit behind a grown-ups gate. The police car and fire truck are free, and one in-app purchase unlocks the other 8 cars and two-player races. There is no subscription.</p>
   </section>
   <footer>
-    <span>Puffy Garage for iPhone, iPad and iPhone Duo</span>
+    <span>Puffy Garage for iPhone, iPad and iPhone Duo · Puffy Garage Spatial for Apple Vision Pro</span>
     <a href="https://gist.github.com/merfinn/6a9b45a8b6100252f3427fc9c0dc17ee">Privacy</a>
     <a href="https://gist.github.com/merfinn/3dad73d18ad21016c125d545a33d22e2">Support</a>
   </footer>
